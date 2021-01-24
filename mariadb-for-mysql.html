@@ -1,0 +1,130 @@
+---
+title: 2. MariaDB for MySQL users
+layout: single
+---
+<link type=text/css rel="stylesheet" href="/stands/mariadb_foundation/style.css">
+
+<div class="row mt-4">
+  <div class="col-sm-8">
+    <div class="container mx-lg-n3">
+      <div class="row">
+        <div class="col">
+          <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GLoJbMjlcnk?feature=oembed" frameborder="0" allowfullscreen></iframe>
+          </figure>
+        </div>
+      </div>
+      <p>
+        MySQL 8 and MariaDB 10.5 are the latest major MySQL and MariaDB versions. While MariaDB started by being a slightly different MySQL variant, it has since grown into a very different database platform which grows more different with each release.
+      </p>
+      <p>
+        In this video, we will look into the differences between MySQL and MariaDB in core areas such as SQL features, query optimization, replication, storage engines, and security. We will also discuss the unique features and capabilities.
+      </p>
+
+      <div class="row">
+        <div class="col">
+          <h2>Getting started with MariaDB Server</h2>
+        </div>
+      </div>
+      <p>
+        You can download MariaDB Server from <a href="https://mariadb.org/download/">our website</a>. You can also read more about how to use MariaDB Server from one of the resources below:
+        <ul>
+          <li><a rel="noreferrer noopener" aria-label="Introduction to relational databases (opens in a new tab)" href="https://mariadb.com/kb/en/library/introduction-to-relational-databases/" target="_blank">Introduction to relational databases</a></li>
+          <li><a rel="noreferrer noopener" aria-label="A 10-minute MariaDB primer (opens in a new tab)" href="https://mariadb.com/kb/en/library/a-mariadb-primer/" target="_blank">A 10-minute MariaDB primer</a></li>
+          <li><a rel="noreferrer noopener" aria-label="List of SQL statements (opens in a new tab)" href="https://mariadb.com/kb/en/library/sql-statements/" target="_blank">List of SQL statements</a></li>
+          <li><a href="https://mariadb.com/kb/en/library/useful-mariadb-queries/" target="_blank" rel="noreferrer noopener" aria-label="Common MariaDB queries (opens in a new tab)">Useful MariaDB queries</a></li>
+        </ul>
+      </p>
+
+      <div class="row">
+        <div class="col">
+          <h2>Documentation</h2>
+        </div>
+      </div>
+      <p>
+        The primary place for MariaDB specific documentation is the <a href="https://mariadb.com/kb/en/">MariaDB Knowledge Base</a>.
+      </p>
+      <p>
+        You may also be interested in one of the following topics:
+        <ul>
+          <li><a href="https://mariadb.com/kb/en/migrating-to-mariadb-from-mysql/">Migrating to MariaDB from MySQL</a></li>
+          <li><a href="https://mariadb.com/kb/en/upgrading-from-mysql-to-mariadb/">Upgrading from MySQL to MariaDB</a></li>
+          <li><a href="https://mariadb.com/kb/en/mariadb-vs-mysql-compatibility/">MariaDB versus MySQL: Compatibility</a></li>
+          <li><a href="https://mariadb.com/kb/en/mariadb-vs-mysql-features/">MySQL vs MariaDB: Performance</a></li>
+          <li><a href="https://mariadb.com/kb/en/installing-mariadb-alongside-mysql/">Installing MariaDB Alongside MySQL</a></li>
+        </ul>
+      </p>
+
+      <div class="row">
+        <div class="col">
+          <h2>MariaDB Community Bug Reporting</h2>
+        </div>
+      </div>
+      <p>
+        First, check that the bug isn't already filed in the <a href="https://jira.mariadb.org/projects/MDEV/issues/MDEV-18976?filter=allopenissues">MariaDB bugs database.</a> or the MySQL bugs database. For the MariaDB bugs database, use JIRA search to check if a report you are going to submit already exists.
+      </p>
+
+
+      <div class="row">
+        <div class="col">
+            <h2>Help steer MariaDB, your opinion matters</h2>
+        </div>
+      </div>
+      <p>
+        MariaDB Server has historically relied on the community for feedback and to supplement the in-house QA process. The easiest way to contribute to MariaDB Server is to try out our development releases. Offer us feedback as soon as possible so we can spot bugs early and improve quickly. Our roadmap and bugs database is hosted at <a href="http://jira.mariadb.org">jira.mariadb.org</a>. All bug reports get attention and help keep MariaDB Server a robust, reliable and performant database. Feature requests are also welcome.
+      </p>
+      <ul>
+        <li><a href="https://mariadb.com/kb/en/library/mariadb-community-bug-reporting/">File a bug or feature request</a></li>
+        <li><a href="https://mariadb.com/kb/en/library/feedback-plugin/">Enable the Feedback Plugin</a></li>
+      </ul>
+      <p>
+        MariaDB Server and related tools are tested thoroughly within our buildbot infrastructure. A complete testing system is necessary for a project to continue.<br><a href="https://buildbot.mariadb.org">buildbot.mariadb.org</a> has made it easy to contribute computing resources to our system.
+      </p>
+      <ul>
+        <li><a href="https://mariadb.com/kb/en/library/how-do-i-setup-a-buildbot-build-slave/">Contribute computing resources to buildbot</a></li>
+      </ul>
+
+      <div class="row">
+        <div class="col">
+            <h2>Our user stories</h2>
+        </div>
+      </div>
+      <p>
+        How do users use MariaDB Server? What are their experiences and thoughts? You can find out more by checking out our previous online conferences: <a href="https://mariadb.org/fest2020/sessions/">Fest2020</a> and <a href="https://mariadb.org/minifest2020/schedule/">MiniFest2020</a>.
+      </p>
+      <div class="row">
+        <div class="col">
+          <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NmdqNGNaMLs?feature=oembed" frameborder="0" allowfullscreen></iframe>
+          </figure>
+        </div>
+      </div>
+      <p>
+        MariaDB is a drop-in replacement for MySQL. Initial migration is simple: start MariaDB over the old MySQL datadir.
+      </p>
+      <p>
+        Later your application may notice that some features work differently than with MySQL. These are MariaDB improvements, so this is good and, likely the reason you migrated.
+      </p>
+      <p>
+        In this session,the focus will be on the differences affecting application performance and behavior. In particular, features sharing the same name, but working differently.
+      </p>
+   </div>
+  </div>
+  <div class="col-sm-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">The MariaDB Foundation stand</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="https://chat.fosdem.org/stands/MariaDB%20Foundation">Chatroom</a></li>
+          <li class="list-group-item"><a href="https://video.fosdem.org/stands/MariaDB%20Foundation">Video's</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/mariadb-for-nosql/">1. MariaDB for NoSQL users</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/mariadb-for-mysql/">2. MariaDB for MySQL users</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/mariadb-for-postgresql/">3. MariaDB for PostgreSQL users</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/mariadb-for-oracle/">4. MariaDB for Oracle users</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/contribute/">5. MariaDB for contributors</a></li>
+          <li class="list-group-item"><a href="http://dev.vicentiu.tech:1313/stands/mariadb_foundation/about/">6. About MariaDB Server</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
