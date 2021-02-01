@@ -4,6 +4,7 @@ themes:
  - Database engines
 website: https://mariadb.org/
 logo: stands/mariadb_foundation/logo.png
+chatroom: mariadb
 description: |
   MariaDB Server, the open source relational database, is part of most cloud offerings and the default in most Linux distributions.
 
