@@ -12,6 +12,13 @@ showcase: |
   <link type=text/css rel="stylesheet" href="/stands/mariadb_foundation/style.css">
 
   <p>
+    <div class="video">
+      <video width="560" height="315" preload="none" controls="controls" poster="/stands/mariadb_foundation/welcome-to-the-MariaDB-Stand-thumbnail.png">
+        <source src="http://mirroronet.pl/pub/mirrors/video.fosdem.org/2021/stands/mariadb/mariadb_video2.mp4" type='video/webm; codecs="vp9, opus"'>
+        </video>
+    </div>
+  </p>
+  <p>
     The MariaDB Foundation is a non-profit organisation supporting continuity and open collaboration in the MariaDB ecosystem. The MariaDB Foundation supports continuity and open collaboration in the MariaDB ecosystem. The Foundation guarantees that there is a global contact point for collaboration and that the community can always rely upon MariaDB Server.
   </p>
 
@@ -30,6 +37,7 @@ showcase: |
   </p>
 
   <h2>Schedule</h2>
+  <p>Timezone: Eastern European Time (EET)</p>
   <table class="table table-striped table-bordered table-condensed">
     <thead>
         <tr>
