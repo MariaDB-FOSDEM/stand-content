@@ -9,9 +9,14 @@ layout: single
     <div class="container mx-lg-n3">
       <div class="row">
         <div class="col">
-          <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/GLoJbMjlcnk?feature=oembed" frameborder="0" allowfullscreen></iframe>
-          </figure>
+          <h2>MariaDB for MySQL users</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>
+            <a href="https://www.youtube.com/watch?v=GLoJbMjlcnk&feature=emb_title&ab_channel=MariaDBFoundation"><img width="560" src="/stands/mariadb_foundation/mysql-8-vs-mariadb-10.5 thumbnail.jpg"></a>
+          </p>
         </div>
       </div>
       <p>
@@ -19,6 +24,83 @@ layout: single
       </p>
       <p>
         In this video, we will look into the differences between MySQL and MariaDB in core areas such as SQL features, query optimization, replication, storage engines, and security. We will also discuss the unique features and capabilities.
+      </p>
+
+      <p>
+        MySQL: MariaDB began as a MySQL fork, and has since continued to develop, adding much functionality not available in MySQL.
+        This includes:
+
+      </p>
+      <div class="row">
+        <div class="col">
+          <h5>More Storage Engines</h5>
+        </div>
+      </div>
+      <p>In addition to the standard <a href="/kb/en/myisam/">MyISAM</a>, <a href="/kb/en/blackhole/">BLACKHOLE</a>, <a href="/kb/en/csv/">CSV</a>, <a href="/kb/en/memory-storage-engine/">MEMORY</a>, <a href="/kb/en/archive/">ARCHIVE</a>, and <a href="/kb/en/merge/">MERGE</a> storage engines, the following are also included with MariaDB:</p>
+      <ul start="1">
+        <li><a href="/kb/en/columnstore/">ColumnStore</a>, a column oriented storage engine optimized for Data warehousing.</li>
+        <li><a href="/kb/en/myrocks/">MyRocks</a>, a storage engine with great compression, in 10.2</li>
+        <li><a href="/kb/en/aria/">Aria</a>, MyISAM replacement with better caching.</li>
+        <li><a href="/kb/en/oqgraph/">OQGRAPH</a> 
+          <span class="cstm-style" style="font-size:1em;color:green;"> <em><span>&mdash;</span> new in 5.2</em></span></li>
+        <li><a href="/kb/en/sphinxse/">SphinxSE</a>
+          <span class="cstm-style" style="font-size:1em;color:green;"> <em><span>&mdash;</span> new in 5.2</em></span></li>
+        <li><a href="/kb/en/connect/">CONNECT</a> for accessing multiple, diverse formats, including NoSQL data</li>
+        <li><a href="/kb/en/sequence/">SEQUENCE</a> for creating virtual, ephemeral tables of ascending or descending sequences automatically when you need them</li>
+        <li><a href="/kb/en/spider/">Spider</a> supporting partitioning and xa transactions</li>
+      </ul>
+
+      <div class="row">
+        <div class="col">
+          <h5>Numerous extensions and improvements, such as:</h5>
+        </div>
+      </div>
+      <ul>
+        <li><a href="https://mariadb.com/kb/en/galera-cluster/">Galera Cluster</a> is a standard part of the server.</li>
+        <li><a href="/kb/en/temporal-tables/">Temporal data tables</a> in the form of:
+        <ul start="1"><li><a href="/kb/en/system-versioned-tables/">System-versioned tables</a> (allow you to query and operate on historic data).
+          </li><li><a href="/kb/en/application-time-periods/">Application-time periods</a> (allow you to query and operate on a temporal range of data), including the <a href="/kb/en/application-time-periods/#without-overlaps">WITHOUT OVERLAPS</a> clause added in 10.5.
+          </li><li><a href="/kb/en/bitemporal-tables/">Bitemporal tables</a> (which combine both system-versioning and application-time periods).
+          </li>
+        </ul>
+          </li><li><a href="/kb/en/flashback/">DML-only flashback</a>, allowing instances, databases or tables to be rolled back to an old snapshot.
+          </li><li><a href="/kb/en/sql_modeoracle-from-mariadb-103/">Oracle compatibility mode</a> (see also Migrating from Oracle)
+          </li><li><a href="/kb/en/sequences/">Sequences</a>
+          </li><li><a href="/kb/en/invisible-columns/">Invisible Columns</a>
+          </li><li><a href="/kb/en/table-value-constructors/">Table Value Constructors</a>
+          </li><li><a href="/kb/en/dynamic-columns/">Dynamic Columns</a> support
+          </li><li><a href="/kb/en/semisynchronous-replication/">Semi-sync plugin</a> merged into the server
+          </li><li><a href="/kb/en/intersect/">INTERSECT/INTERSECT ALL</a> and <a href="/kb/en/except/">EXCEPT/EXCEPT ALL</a>
+          </li><li>OR REPLACE syntax for <a href="/kb/en/create/">CREATE</a> statements, such as <a href="/kb/en/create-table/#create-or-replace">CREATE OR REPLACE TABLE</a>, <a href="/kb/en/create-database/#or-replace">CREATE OR REPLACE DATABASE</a>, etc
+          </li><li><a href="/kb/en/delete/">DELETE ... RETURNING</a>
+          </li><li><a href="/kb/en/inet6/">INET6</a> data type for storing IPv6 addresses.
+          </li><li><a href="/kb/en/grant/">SUPER privileges</a> made more granular.
+          </li><li><a href="/kb/en/proxy-protocol-support/">PROXY protocol support</a>
+          </li><li>Number of supported decimals in <a href="/kb/en/decimal/">DECIMAL</a> has increased from <code>30</code> to <code>38</code>
+          </li><li>Added catchall for <a href="/kb/en/list-partitioning-type/">list partitions</a>
+          </li><li>Oracle-style <a href="/kb/en/execute-immediate/">EXECUTE IMMEDIATE</a> statement
+          </li><li>Lots of new <a href="/kb/en/json-functions/">JSON functions</a>
+          </li><li><a href="/kb/en/time_ms-column-in-information_schemaprocesslist/">Microsecond Precision in Processlist</a>
+          </li><li><a href="/kb/en/table-elimination/">Table Elimination</a>
+          </li><li><a href="/kb/en/virtual-columns/">Virtual Columns</a>
+          </li><li><a href="/kb/en/user-statistics/">Extended User Statistics</a>
+          </li><li><a href="/kb/en/data-manipulation-kill-connection-query/">KILL all queries for a user</a>
+          </li><li><a href="/kb/en/extending-create-table/">Storage-engine-specific CREATE TABLE</a>
+          </li><li>MariaDB <a href="/kb/en/supported-character-sets-and-collations/">supports more collations</a> than MySQL, including <code>NO PAD</code> collations.
+          </li><li><a href="/kb/en/flush/">FLUSH SSL</a> command to reload SSL certificates without server restart.
+          </li><li><code>IF NOT EXISTS</code> clause added to <a href="/kb/en/install-plugin/">INSTALL PLUGIN</a> and <code>IF EXISTS</code> clause added to <a href="/kb/en/uninstall-plugin/">UNINSTALL PLUGIN</a> and <a href="/kb/en/uninstall-soname/">UNINSTALL SONAME</a>
+          </li><li><a href="/kb/en/information_schemaplugins-table/">Enhancements to INFORMATION SCHEMA.PLUGINS table</a>
+          </li><li><a href="/kb/en/group-commit-for-the-binary-log/">Group commit for the binary log</a>. This makes <a href="http://www.facebook.com/note.php?note_id=10150261692455933">replication notably faster!</a>
+          </li><li>The binary log in MariaDB <a href="/kb/en/compressing-events-to-reduce-size-of-the-binary-log/">can be compressed</a>.
+          </li><li><a href="/kb/en/backup-stage/">BACKUP STAGE</a> allows one to implement very efficient backups with minimal locking.
+          </li><li><a href="/kb/en/progress-reporting/">Progress reporting</a> for <a href="/kb/en/alter-table/">ALTER TABLE</a> and <a href="/kb/en/load-data-infile/">LOAD DATA INFILE</a>
+          </li><li><a href="/kb/en/show-explain/">SHOW EXPLAIN</a> gives the EXPLAIN plan for a query running in another thread.
+          </li><li><a href="/kb/en/pcre-regular-expressions/">PCRE Regular Expressions</a> (including <a href="/kb/en/regexp_replace/">REGEXP_REPLACE()</a>)
+          </li><li><a href="/kb/en/handlersocket/">HandlerSocket</a> and faster <a href="/kb/en/handler/">HANDLER</a> calls
+          </li>
+      </ul>
+      <p>
+        See <a href="https://mariadb.com/kb/en/incompatibilities-and-feature-differences-between-mariadb-105-and-mysql-80/">this page</a> for more information.
       </p>
 
       <div class="row">
@@ -57,7 +139,7 @@ layout: single
 
       <div class="row">
         <div class="col">
-          <h2>MariaDB Community Bug Reporting</h2>
+          <h2>MariaDB Server bug reporting</h2>
         </div>
       </div>
       <p>
@@ -94,9 +176,9 @@ layout: single
       </p>
       <div class="row">
         <div class="col">
-          <figure>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/NmdqNGNaMLs?feature=oembed" frameborder="0" allowfullscreen></iframe>
-          </figure>
+          <p>
+            <a href="https://www.youtube.com/watch?v=GLoJbMjlcnk&feature=emb_title&ab_channel=MariaDBFoundation"><img width="560" src="/stands/mariadb_foundation/migrate-from-mysql-to-mariadb-thumbnail.jpg"></a>
+          </p>
         </div>
       </div>
       <p>
@@ -115,7 +197,7 @@ layout: single
       <div class="card-body">
         <h5 class="card-title">The MariaDB Foundation stand</h5>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item"><a href="https://chat.fosdem.org/stands/MariaDB%20Foundation">Chatroom</a></li>
+          <li class="list-group-item"><a href="https://chat.fosdem.org/#/room/#mariadb-stand:fosdem.org">Chatroom</a></li>
           <li class="list-group-item"><a href="https://video.fosdem.org/stands/MariaDB%20Foundation">Video's</a></li>
           <li class="list-group-item"><a href="https://stands.fosdem.org/stands/mariadb_foundation/mariadb-for-nosql/">1. MariaDB for NoSQL users</a></li>
           <li class="list-group-item"><a href="https://stands.fosdem.org/stands/mariadb_foundation/mariadb-for-mysql/">2. MariaDB for MySQL users</a></li>
