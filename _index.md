@@ -13,7 +13,7 @@ showcase: |
 
   <p>
     <div class="video">
-      <video width="560" height="315" preload="none" controls="controls" poster="/stands/mariadb_foundation/welcome-to-the-MariaDB-Stand-thumbnail.png">
+      <video width="100%" height="315" preload="none" controls="controls" poster="/stands/mariadb_foundation/welcome-to-the-MariaDB-Stand-thumbnail.png">
         <source src="http://mirroronet.pl/pub/mirrors/video.fosdem.org/2021/stands/mariadb/mariadb_video2.mp4" type='video/webm; codecs="vp9, opus"'>
         </video>
     </div>
