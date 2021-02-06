@@ -14,7 +14,7 @@ showcase: |
   <p>
     <div class="video">
       <video width="100%" height="315" controls poster="/stands/mariadb_foundation/welcome-thumbnail.png">
-        <source src="http://mirroronet.pl/pub/mirrors/video.fosdem.org/2021/stands/mariadb/mariadb_video2.mp4" type='video/webm; codecs="vp9, opus"'>
+        <source src="https://video.fosdem.org/2021/stands/mariadb/mariadb_video2.mp4" type='video/webm; codecs="vp9, opus"'>
         </video>
     </div>
   </p>

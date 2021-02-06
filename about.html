@@ -6,7 +6,6 @@ layout: single
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<script src="/stands/mariadb_foundation/require.min.js"></script>
 
 
 
@@ -14091,45 +14090,6 @@ a.anchor-link {
 
 <link type=text/css rel="stylesheet" href="/stands/mariadb_foundation/style.css">
 
-
-<!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML-full,Safe"> </script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-    init_mathjax = function() {
-        if (window.MathJax) {
-        // MathJax loaded
-            MathJax.Hub.Config({
-                TeX: {
-                    equationNumbers: {
-                    autoNumber: "AMS",
-                    useLabelIds: true
-                    }
-                },
-                tex2jax: {
-                    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                    processEscapes: true,
-                    processEnvironments: true
-                },
-                displayAlign: 'center',
-                CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
-                    }
-                },
-                "HTML-CSS": {
-                    linebreaks: { 
-                    automatic: true 
-                    }
-                }
-            });
-        
-            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
-        }
-    }
-    init_mathjax();
-    </script>
     <!-- End of mathjax configuration --></head>
 <div class="row mt-4">
 <div class="col-sm-8">
@@ -14143,7 +14103,7 @@ a.anchor-link {
   <div class="col">
     <div class="video">
       <video width="100%" height="315" controls poster="/stands/mariadb_foundation/daniel-thumbnail.png">
-        <source src="https://mirror.as35701.net/video.fosdem.org/2021/stands/mariadb/mariadb_video4.mp4" type='video/webm; codecs="vp9, opus"'>
+        <source src="https://video.fosdem.org/2021/stands/mariadb/mariadb_video4.mp4" type='video/webm; codecs="vp9, opus"'>
       </video>
     </div>
   </div>
@@ -14177,154 +14137,27 @@ a.anchor-link {
 <div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="PR-Backlog-Size-at-the-end-of-each-year">PR Backlog Size at the end of each year<a class="anchor-link" href="#PR-Backlog-Size-at-the-end-of-each-year">&#182;</a></h3>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-
-<div id="altair-viz-b1eb2493366e475da9aceabb78267dc0"></div>
-<script type="text/javascript">
-  (function(spec, embedOpt){
-    let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-b1eb2493366e475da9aceabb78267dc0") {
-      outputDiv = document.getElementById("altair-viz-b1eb2493366e475da9aceabb78267dc0");
-    }
-    const paths = {
-      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
-      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
-      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
-      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
-    };
-
-    function loadScript(lib) {
-      return new Promise(function(resolve, reject) {
-        var s = document.createElement('script');
-        s.src = paths[lib];
-        s.async = true;
-        s.onload = () => resolve(paths[lib]);
-        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
-        document.getElementsByTagName("head")[0].appendChild(s);
-      });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === "function" && define.amd) {
-      requirejs.config({paths});
-      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
-    } else if (typeof vegaEmbed === "function") {
-      displayChart(vegaEmbed);
-    } else {
-      loadScript("vega")
-        .then(() => loadScript("vega-lite"))
-        .then(() => loadScript("vega-embed"))
-        .catch(showError)
-        .then(() => displayChart(vegaEmbed));
-    }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-081f69f4b7e7c9a296deb9e2fd8e6e62"}, "mark": {"type": "line", "point": true}, "encoding": {"x": {"type": "ordinal", "field": "year"}, "y": {"type": "quantitative", "field": "backlog"}}, "height": 300, "title": "The backlog size at the end of the year", "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-081f69f4b7e7c9a296deb9e2fd8e6e62": [{"year": 2014, "backlog": 8}, {"year": 2015, "backlog": 21}, {"year": 2016, "backlog": 23}, {"year": 2017, "backlog": 33}, {"year": 2018, "backlog": 175}, {"year": 2019, "backlog": 81}, {"year": 2020, "backlog": 98}]}}, {"mode": "vega-lite"});
-</script>
 </div>
 
+<div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="/stands/mariadb_foundation/backlog-each-year.png">
+</div>
 </div>
 
-</div>
 
-</div>
 
-</div>
+
+
+
 <div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Number-of-Pull-Requests-opened-each-year">Number of Pull Requests opened each year<a class="anchor-link" href="#Number-of-Pull-Requests-opened-each-year">&#182;</a></h3>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-
-<div id="altair-viz-8c282baa716049a9b47143305ddb30d7"></div>
-<script type="text/javascript">
-  (function(spec, embedOpt){
-    let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-8c282baa716049a9b47143305ddb30d7") {
-      outputDiv = document.getElementById("altair-viz-8c282baa716049a9b47143305ddb30d7");
-    }
-    const paths = {
-      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
-      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
-      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
-      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
-    };
-
-    function loadScript(lib) {
-      return new Promise(function(resolve, reject) {
-        var s = document.createElement('script');
-        s.src = paths[lib];
-        s.async = true;
-        s.onload = () => resolve(paths[lib]);
-        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
-        document.getElementsByTagName("head")[0].appendChild(s);
-      });
-    }
-
-    function showError(err) {
-      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
-      throw err;
-    }
-
-    function displayChart(vegaEmbed) {
-      vegaEmbed(outputDiv, spec, embedOpt)
-        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
-    }
-
-    if(typeof define === "function" && define.amd) {
-      requirejs.config({paths});
-      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
-    } else if (typeof vegaEmbed === "function") {
-      displayChart(vegaEmbed);
-    } else {
-      loadScript("vega")
-        .then(() => loadScript("vega-lite"))
-        .then(() => loadScript("vega-embed"))
-        .catch(showError)
-        .then(() => displayChart(vegaEmbed));
-    }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-eee6d9a64c485a093e0550b0c03ea497"}, "mark": "bar", "encoding": {"x": {"type": "ordinal", "field": "year"}, "y": {"type": "quantitative", "field": "Count", "title": "Number of PRs"}}, "height": 300, "title": "Number of PRs opened each year", "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-eee6d9a64c485a093e0550b0c03ea497": [{"Unnamed: 0": 835, "state": "CLOSED", "id": "MDExOlB1bGxSZXF1ZXN0MjIzODg0Mjc=", "title": "mdev 6817", "url": "https://github.com/MariaDB/server/pull/13", "createdAt": "2014-10-07T22:20:28Z", "updatedAt": "2019-09-04T07:22:12Z", "closedAt": "2019-09-04T07:22:12Z", "labels": "{'edges': []}", "number": 13, "authorAssociation": "NONE", "author": "rspadim", "mergedBy": null, "mergeCommit": null, "deletions": 2, "additions": 4, "changedFiles": 1, "comments": "{'edges': [{'node': {'authorAssociation': 'NONE', 'createdAt': '2018-03-05T20:24:45Z', 'updatedAt': '2018-03-05T20:24:45Z', 'url': 'https://github.com/MariaDB/server/pull/13#issuecomment-370552679', 'author': {'login': 'codership-jenkins'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-06-05T13:00:57Z', 'updatedAt': '2019-06-05T13:01:29Z', 'url': 'https://github.com/MariaDB/server/pull/13#issuecomment-499072849', 'author': {'login': 'an3l'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2019-06-05T13:05:26Z', 'updatedAt': '2019-06-05T13:05:26Z', 'url': 'https://github.com/MariaDB/server/pull/13#issuecomment-499074511', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-09-04T07:22:12Z', 'updatedAt': '2019-09-04T07:22:12Z', 'url': 'https://github.com/MariaDB/server/pull/13#issuecomment-527777159', 'author': {'login': 'montywi'}}}]}", "org": "MariaDB", "repo": "server", "year": 2014, "Count": 21}, {"Unnamed: 0": 1648, "state": "CLOSED", "id": "MDExOlB1bGxSZXF1ZXN0NTMxNDkzNzM=", "title": "MDEV-9254 - 'truncate table' make server crash in sharding&ha configuration when wrapper is oracle", "url": "https://github.com/MariaDB/server/pull/129", "createdAt": "2015-12-09T17:16:17Z", "updatedAt": "2017-08-31T14:50:24Z", "closedAt": "2017-08-31T14:50:24Z", "labels": "{'edges': []}", "number": 129, "authorAssociation": "CONTRIBUTOR", "author": "ChengXiaoZ", "mergedBy": null, "mergeCommit": null, "deletions": 3, "additions": 53, "changedFiles": 2, "comments": "{'edges': [{'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2015-12-09T17:26:53Z', 'updatedAt': '2015-12-09T17:26:53Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-163331974', 'author': {'login': 'ChengXiaoZ'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2015-12-10T07:52:27Z', 'updatedAt': '2015-12-10T07:52:27Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-163526968', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2015-12-10T15:49:23Z', 'updatedAt': '2015-12-10T15:49:23Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-163666192', 'author': {'login': 'ChengXiaoZ'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2015-12-14T19:43:09Z', 'updatedAt': '2015-12-14T19:43:09Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-164538485', 'author': {'login': 'Kentoku'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2015-12-24T07:11:47Z', 'updatedAt': '2015-12-24T07:11:47Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-167059243', 'author': {'login': 'ChengXiaoZ'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2016-03-04T13:04:42Z', 'updatedAt': '2016-03-04T13:04:42Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-192275513', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2016-09-04T12:30:20Z', 'updatedAt': '2016-09-04T12:30:20Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-244600928', 'author': {'login': 'Kentoku'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2017-08-31T14:50:24Z', 'updatedAt': '2017-08-31T14:50:24Z', 'url': 'https://github.com/MariaDB/server/pull/129#issuecomment-326319889', 'author': {'login': 'svoj'}}}]}", "org": "MariaDB", "repo": "server", "year": 2015, "Count": 140}, {"Unnamed: 0": 833, "state": "CLOSED", "id": "MDExOlB1bGxSZXF1ZXN0ODE1NjM0Mzg=", "title": "MDEV-4476: mytop tracker", "url": "https://github.com/MariaDB/server/pull/215", "createdAt": "2016-08-16T23:42:47Z", "updatedAt": "2019-11-14T22:36:24Z", "closedAt": "2019-11-14T10:33:47Z", "labels": "{'edges': [{'node': {'name': 'license-bsd-new'}}]}", "number": 215, "authorAssociation": "CONTRIBUTOR", "author": "jb-boin", "mergedBy": null, "mergeCommit": null, "deletions": 261, "additions": 475, "changedFiles": 1, "comments": "{'edges': [{'node': {'authorAssociation': 'NONE', 'createdAt': '2016-08-17T07:04:28Z', 'updatedAt': '2016-08-17T07:04:28Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-240330383', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2016-08-17T11:06:20Z', 'updatedAt': '2016-08-17T11:06:20Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-240380850', 'author': {'login': 'jb-boin'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2017-03-09T18:42:35Z', 'updatedAt': '2017-03-09T18:42:35Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-285441443', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2017-03-16T16:46:07Z', 'updatedAt': '2017-03-16T16:46:41Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-287118727', 'author': {'login': 'jb-boin'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2018-03-05T20:24:40Z', 'updatedAt': '2018-03-05T20:24:40Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-370552650', 'author': {'login': 'codership-jenkins'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2019-09-13T16:13:33Z', 'updatedAt': '2019-10-22T13:02:49Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-531299562', 'author': {'login': 'CLAassistant'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-11-05T07:49:49Z', 'updatedAt': '2019-11-05T07:49:49Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-549703790', 'author': {'login': 'an3l'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-11-14T10:37:01Z', 'updatedAt': '2019-11-14T10:37:01Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-553828790', 'author': {'login': 'an3l'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-11-14T14:12:32Z', 'updatedAt': '2019-11-14T14:12:32Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-553905247', 'author': {'login': 'jb-boin'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-11-14T22:36:24Z', 'updatedAt': '2019-11-14T22:36:24Z', 'url': 'https://github.com/MariaDB/server/pull/215#issuecomment-554113569', 'author': {'login': 'an3l'}}}]}", "org": "MariaDB", "repo": "server", "year": 2016, "Count": 163}, {"Unnamed: 0": 336, "state": "CLOSED", "id": "MDExOlB1bGxSZXF1ZXN0MTYwMzk3MDA1", "title": "MDEV-15052 - Allow sysusers and tmpfiles install for non-systemd users", "url": "https://github.com/MariaDB/server/pull/528", "createdAt": "2017-12-28T14:35:29Z", "updatedAt": "2020-01-24T12:20:26Z", "closedAt": "2020-01-24T12:20:26Z", "labels": "{'edges': [{'node': {'name': 'license-bsd-new'}}]}", "number": 528, "authorAssociation": "CONTRIBUTOR", "author": "thefallenrat", "mergedBy": null, "mergeCommit": null, "deletions": 15, "additions": 15, "changedFiles": 1, "comments": "{'edges': [{'node': {'authorAssociation': 'NONE', 'createdAt': '2018-01-24T10:05:52Z', 'updatedAt': '2018-01-24T10:05:52Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-360081508', 'author': {'login': 'svoj'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2018-01-27T13:34:38Z', 'updatedAt': '2018-01-27T13:34:38Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-360985296', 'author': {'login': 'thefallenrat'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2018-03-05T20:24:09Z', 'updatedAt': '2018-03-05T20:24:09Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-370552467', 'author': {'login': 'codership-jenkins'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-01-07T09:08:24Z', 'updatedAt': '2019-01-07T09:08:24Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-451867396', 'author': {'login': 'ottok'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2019-04-03T22:29:30Z', 'updatedAt': '2019-04-03T22:29:30Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-479681952', 'author': {'login': 'grooverdan'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2019-04-03T22:41:31Z', 'updatedAt': '2019-04-03T22:41:42Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-479684752', 'author': {'login': 'grooverdan'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-04-10T17:20:11Z', 'updatedAt': '2019-04-10T17:23:31Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-481782586', 'author': {'login': 'fauust'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2019-07-29T05:20:45Z', 'updatedAt': '2019-08-03T12:04:46Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-515848448', 'author': {'login': 'thefallenrat'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2020-01-23T20:00:21Z', 'updatedAt': '2020-01-23T20:01:51Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-577850108', 'author': {'login': 'cvicentiu'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2020-01-24T12:20:26Z', 'updatedAt': '2020-01-24T12:20:26Z', 'url': 'https://github.com/MariaDB/server/pull/528#issuecomment-578109027', 'author': {'login': 'cvicentiu'}}}]}", "org": "MariaDB", "repo": "server", "year": 2017, "Count": 268}, {"Unnamed: 0": 319, "state": "CLOSED", "id": "MDExOlB1bGxSZXF1ZXN0MjQwNjM3MTc2", "title": "MDEV-17798 System variable system_versioning_asof accepts wrong values", "url": "https://github.com/MariaDB/server/pull/1049", "createdAt": "2018-12-22T14:14:58Z", "updatedAt": "2020-05-20T14:03:21Z", "closedAt": "2020-02-03T12:02:28Z", "labels": "{'edges': [{'node': {'name': 'license-bsd-new'}}]}", "number": 1049, "authorAssociation": "CONTRIBUTOR", "author": "midenok", "mergedBy": null, "mergeCommit": null, "deletions": 2, "additions": 34, "changedFiles": 3, "comments": "{'edges': [{'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2020-02-03T12:02:28Z', 'updatedAt': '2020-02-03T12:02:28Z', 'url': 'https://github.com/MariaDB/server/pull/1049#issuecomment-581381739', 'author': {'login': 'midenok'}}}]}", "org": "MariaDB", "repo": "server", "year": 2018, "Count": 673}, {"Unnamed: 0": 298, "state": "MERGED", "id": "MDExOlB1bGxSZXF1ZXN0MzU4MjA5MTE1", "title": "MDEV-20732 Correctly set the length of the FORMAT() result for float data type as argument.", "url": "https://github.com/MariaDB/server/pull/1431", "createdAt": "2019-12-30T20:30:10Z", "updatedAt": "2020-01-16T07:46:59Z", "closedAt": "2020-01-16T07:46:59Z", "labels": "{'edges': []}", "number": 1431, "authorAssociation": "CONTRIBUTOR", "author": "tntnatbry", "mergedBy": "{'login': 'robertbindar'}", "mergeCommit": "{'oid': 'f0ca9bc669c742bab5a122e4caddb4b12a8c6c45'}", "deletions": 5, "additions": 28, "changedFiles": 6, "comments": "{'edges': [{'node': {'authorAssociation': 'NONE', 'createdAt': '2019-12-30T20:30:26Z', 'updatedAt': '2020-01-15T14:52:17Z', 'url': 'https://github.com/MariaDB/server/pull/1431#issuecomment-569787900', 'author': {'login': 'claassistantio'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2020-01-15T14:08:59Z', 'updatedAt': '2020-01-15T14:08:59Z', 'url': 'https://github.com/MariaDB/server/pull/1431#issuecomment-574675238', 'author': {'login': 'robertbindar'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2020-01-15T14:43:35Z', 'updatedAt': '2020-01-15T14:43:35Z', 'url': 'https://github.com/MariaDB/server/pull/1431#issuecomment-574690285', 'author': {'login': 'robertbindar'}}}, {'node': {'authorAssociation': 'CONTRIBUTOR', 'createdAt': '2020-01-15T17:31:07Z', 'updatedAt': '2020-01-15T17:31:07Z', 'url': 'https://github.com/MariaDB/server/pull/1431#issuecomment-574768177', 'author': {'login': 'tntnatbry'}}}, {'node': {'authorAssociation': 'MEMBER', 'createdAt': '2020-01-16T07:46:41Z', 'updatedAt': '2020-01-16T07:46:41Z', 'url': 'https://github.com/MariaDB/server/pull/1431#issuecomment-575026250', 'author': {'login': 'robertbindar'}}}]}", "org": "MariaDB", "repo": "server", "year": 2019, "Count": 388}, {"Unnamed: 0": 0, "state": "OPEN", "id": "MDExOlB1bGxSZXF1ZXN0NTQ2NDA2NDQ4", "title": "Apple Silicon is a 64-bit platform", "url": "https://github.com/MariaDB/server/pull/1730", "createdAt": "2020-12-29T09:33:37Z", "updatedAt": "2021-01-22T15:18:29Z", "closedAt": null, "labels": "{'edges': []}", "number": 1730, "authorAssociation": "FIRST_TIME_CONTRIBUTOR", "author": "fxcoudert", "mergedBy": null, "mergeCommit": null, "deletions": 1, "additions": 1, "changedFiles": 1, "comments": "{'edges': [{'node': {'authorAssociation': 'NONE', 'createdAt': '2020-12-29T09:33:42Z', 'updatedAt': '2020-12-29T09:34:19Z', 'url': 'https://github.com/MariaDB/server/pull/1730#issuecomment-752011709', 'author': {'login': 'CLAassistant'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2021-01-22T15:16:06Z', 'updatedAt': '2021-01-22T15:16:06Z', 'url': 'https://github.com/MariaDB/server/pull/1730#issuecomment-765475423', 'author': {'login': 'lonnylot'}}}, {'node': {'authorAssociation': 'NONE', 'createdAt': '2021-01-22T15:18:29Z', 'updatedAt': '2021-01-22T15:18:29Z', 'url': 'https://github.com/MariaDB/server/pull/1730#issuecomment-765477344', 'author': {'login': 'lonnylot'}}}]}", "org": "MariaDB", "repo": "server", "year": 2020, "Count": 298}]}}, {"mode": "vega-lite"});
-</script>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<img src="/stands/mariadb_foundation/PR-each-year.png">
+</div>
 </div>
 
-</div>
-
-</div>
-
-</div>
-
-</div>
 <div class="jp-Cell-inputWrapper"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Organisational-Commits-last-year">Organisational Commits last year<a class="anchor-link" href="#Organisational-Commits-last-year">&#182;</a></h3>
 </div>
