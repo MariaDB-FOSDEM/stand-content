@@ -117,173 +117,173 @@ showcase: |
 
         <tr>
           <td class="c3">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_welcome/">Welcome to the MariaDB devroom</a></td>
-          <td><a href="/2022/schedule/speaker/ian_gilfillan/" class="quiet">Ian Gilfillan</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_welcome/">Welcome to the MariaDB devroom</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/ian_gilfillan/" class="quiet">Ian Gilfillan</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T10:00:00+01:00" href="/2022/schedule/day/saturday/#1000">10:00</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T10:05:00+01:00" href="/2022/schedule/day/saturday/#1005">10:05</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:00:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1000">10:00</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:05:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1005">10:05</a></td>
         </tr>
 
         <tr>
           <td class="c4">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_model/">MariaDB Server's new release model</a></td>
-          <td><a href="/2022/schedule/speaker/michael_monty_widenius/" class="quiet">Michael "Monty" Widenius</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_model/">MariaDB Server's new release model</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/michael_monty_widenius/" class="quiet">Michael "Monty" Widenius</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T10:05:00+01:00" href="/2022/schedule/day/saturday/#1005">10:05</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T10:25:00+01:00" href="/2022/schedule/day/saturday/#1025">10:25</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:05:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1005">10:05</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:25:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1025">10:25</a></td>
         </tr>
 
         <tr>
           <td class="c5">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_106/">What is new in mariadb 10.6 ?</a></td>
-          <td><a href="/2022/schedule/speaker/praveen_gr/" class="quiet">Praveen GR</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_106/">What is new in mariadb 10.6 ?</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/praveen_gr/" class="quiet">Praveen GR</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T10:25:00+01:00" href="/2022/schedule/day/saturday/#1025">10:25</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T10:45:00+01:00" href="/2022/schedule/day/saturday/#1045">10:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:25:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1025">10:25</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1045">10:45</a></td>
         </tr>
 
         <tr>
           <td class="c6">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_107_108/">New features in MariaDB 10.7 and MariaDB 10.8</a></td>
-          <td><a href="/2022/schedule/speaker/ian_gilfillan/" class="quiet">Ian Gilfillan</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_107_108/">New features in MariaDB 10.7 and MariaDB 10.8</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/ian_gilfillan/" class="quiet">Ian Gilfillan</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T10:45:00+01:00" href="/2022/schedule/day/saturday/#1045">10:45</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T11:10:00+01:00" href="/2022/schedule/day/saturday/#1110">11:10</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T10:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1045">10:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T11:10:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1110">11:10</a></td>
         </tr>
 
         <tr>
           <td class="c7">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_macos/">MariaDB Server on macOS<br><i>Does it make sense to even try?</i></a></td>
-          <td><a href="/2022/schedule/speaker/valerii_kravchuk/" class="quiet">Valerii Kravchuk</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_macos/">MariaDB Server on macOS<br><i>Does it make sense to even try?</i></a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/valerii_kravchuk/" class="quiet">Valerii Kravchuk</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T11:10:00+01:00" href="/2022/schedule/day/saturday/#1110">11:10</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T11:35:00+01:00" href="/2022/schedule/day/saturday/#1135">11:35</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T11:10:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1110">11:10</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T11:35:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1135">11:35</a></td>
         </tr>
 
         <tr>
           <td class="c8">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_histograms/">Improved histograms in MariaDB 10.8</a></td>
-          <td><a href="/2022/schedule/speaker/sergei_petrunia/" class="quiet">Sergei Petrunia</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_histograms/">Improved histograms in MariaDB 10.8</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/sergei_petrunia/" class="quiet">Sergei Petrunia</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T11:35:00+01:00" href="/2022/schedule/day/saturday/#1135">11:35</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T12:00:00+01:00" href="/2022/schedule/day/saturday/#1200">12:00</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T11:35:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1135">11:35</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T12:00:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1200">12:00</a></td>
         </tr>
 
         <tr>
           <td class="c9">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_innodb/">Performance oriented InnoDB log format changes<br><i>How InnoDB crash recovery works</i></a></td>
-          <td><a href="/2022/schedule/speaker/marko_makela/" class="quiet">Marko Mäkelä</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_innodb/">Performance oriented InnoDB log format changes<br><i>How InnoDB crash recovery works</i></a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/marko_makela/" class="quiet">Marko Mäkelä</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T12:00:00+01:00" href="/2022/schedule/day/saturday/#1200">12:00</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T12:30:00+01:00" href="/2022/schedule/day/saturday/#1230">12:30</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T12:00:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1200">12:00</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T12:30:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1230">12:30</a></td>
         </tr>
 
         <tr>
           <td class="c10">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_optimizer/">MariaDB Optimizer - ongoing development and changes</a></td>
-          <td><a href="/2022/schedule/speaker/michael_monty_widenius/" class="quiet">Michael "Monty" Widenius</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_optimizer/">MariaDB Optimizer - ongoing development and changes</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/michael_monty_widenius/" class="quiet">Michael "Monty" Widenius</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T12:30:00+01:00" href="/2022/schedule/day/saturday/#1230">12:30</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T12:55:00+01:00" href="/2022/schedule/day/saturday/#1255">12:55</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T12:30:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1230">12:30</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T12:55:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1255">12:55</a></td>
         </tr>
 
         <tr>
           <td class="c1">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_mysql/">MySQL 8 vs MariaDB 10.6</a></td>
-          <td><a href="/2022/schedule/speaker/peter_zaitsev/" class="quiet">Peter Zaitsev</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_mysql/">MySQL 8 vs MariaDB 10.6</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/peter_zaitsev/" class="quiet">Peter Zaitsev</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T13:00:00+01:00" href="/2022/schedule/day/saturday/#1300">13:00</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T13:30:00+01:00" href="/2022/schedule/day/saturday/#1330">13:30</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T13:00:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1300">13:00</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T13:30:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1330">13:30</a></td>
         </tr>
 
         <tr>
           <td class="c2">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_pit_recovery/">MariaDB Point-in-Time-Recovery</a></td>
-          <td><a href="/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_pit_recovery/">MariaDB Point-in-Time-Recovery</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T13:30:00+01:00" href="/2022/schedule/day/saturday/#1330">13:30</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T13:50:00+01:00" href="/2022/schedule/day/saturday/#1350">13:50</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T13:30:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1330">13:30</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T13:50:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1350">13:50</a></td>
         </tr>
 
         <tr>
           <td class="c3">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_backup_restic/">Mariabackup + Restic: a simple and efficient online backup solution for your DBs</a></td>
-          <td><a href="/2022/schedule/speaker/faustin_lammler/" class="quiet">Faustin Lammler</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_backup_restic/">Mariabackup + Restic: a simple and efficient online backup solution for your DBs</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/faustin_lammler/" class="quiet">Faustin Lammler</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T13:50:00+01:00" href="/2022/schedule/day/saturday/#1350">13:50</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T14:20:00+01:00" href="/2022/schedule/day/saturday/#1420">14:20</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T13:50:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1350">13:50</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T14:20:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1420">14:20</a></td>
         </tr>
 
         <tr>
           <td class="c4">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_deny/">MariaDB DENY command<br><i>Upcoming functionality for sysadmins and database service providers</i></a></td>
-          <td><a href="/2022/schedule/speaker/vicentiu_ciorbaru/" class="quiet">Vicentiu Ciorbaru</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_deny/">MariaDB DENY command<br><i>Upcoming functionality for sysadmins and database service providers</i></a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/vicentiu_ciorbaru/" class="quiet">Vicentiu Ciorbaru</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T14:20:00+01:00" href="/2022/schedule/day/saturday/#1420">14:20</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T14:45:00+01:00" href="/2022/schedule/day/saturday/#1445">14:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T14:20:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1420">14:20</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T14:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1445">14:45</a></td>
         </tr>
 
         <tr>
           <td class="c5">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_galera/">MariaDB Galera Cluster and M/S replication</a></td>
-          <td><a href="/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_galera/">MariaDB Galera Cluster and M/S replication</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T14:45:00+01:00" href="/2022/schedule/day/saturday/#1445">14:45</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T15:10:00+01:00" href="/2022/schedule/day/saturday/#1510">15:10</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T14:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1445">14:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T15:10:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1510">15:10</a></td>
         </tr>
 
         <tr>
           <td class="c6">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_tips/">Ten Tips for Better MariaDB Performance</a></td>
-          <td><a href="/2022/schedule/speaker/peter_zaitsev/" class="quiet">Peter Zaitsev</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_tips/">Ten Tips for Better MariaDB Performance</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/peter_zaitsev/" class="quiet">Peter Zaitsev</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T15:15:00+01:00" href="/2022/schedule/day/saturday/#1515">15:15</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T15:45:00+01:00" href="/2022/schedule/day/saturday/#1545">15:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T15:15:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1515">15:15</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T15:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1545">15:45</a></td>
         </tr>
 
         <tr>
           <td class="c7">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_triggers/">Creative uses of triggers<br><i>Things you people wouldn't believe</i></a></td>
-          <td><a href="/2022/schedule/speaker/federico_razzoli/" class="quiet">Federico Razzoli</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_triggers/">Creative uses of triggers<br><i>Things you people wouldn't believe</i></a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/federico_razzoli/" class="quiet">Federico Razzoli</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T15:45:00+01:00" href="/2022/schedule/day/saturday/#1545">15:45</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T16:10:00+01:00" href="/2022/schedule/day/saturday/#1610">16:10</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T15:45:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1545">15:45</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T16:10:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1610">16:10</a></td>
         </tr>
 
         <tr>
           <td class="c8">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_connectionid/">MariaDB Connection ID</a></td>
-          <td><a href="/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_connectionid/">MariaDB Connection ID</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/oli_sennhauser/" class="quiet">Oli Sennhauser</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T16:15:00+01:00" href="/2022/schedule/day/saturday/#1615">16:15</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T16:40:00+01:00" href="/2022/schedule/day/saturday/#1640">16:40</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T16:15:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1615">16:15</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T16:40:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1640">16:40</a></td>
         </tr>
 
         <tr>
           <td class="c9">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_bfptrace/">More on bpftrace for MariaDB DBAs and Developers<br><i>Summary of recent experience</i></a></td>
-          <td><a href="/2022/schedule/speaker/valerii_kravchuk/" class="quiet">Valerii Kravchuk</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_bfptrace/">More on bpftrace for MariaDB DBAs and Developers<br><i>Summary of recent experience</i></a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/valerii_kravchuk/" class="quiet">Valerii Kravchuk</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T16:40:00+01:00" href="/2022/schedule/day/saturday/#1640">16:40</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T17:05:00+01:00" href="/2022/schedule/day/saturday/#1705">17:05</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T16:40:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1640">16:40</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T17:05:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1705">17:05</a></td>
         </tr>
 
         <tr>
           <td class="c10">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_json/">Introducing MYSQL_JSON plugin</a></td>
-          <td><a href="/2022/schedule/speaker/anel_husakovic/" class="quiet">Anel Husakovic</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_json/">Introducing MYSQL_JSON plugin</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/anel_husakovic/" class="quiet">Anel Husakovic</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T17:05:00+01:00" href="/2022/schedule/day/saturday/#1705">17:05</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T17:35:00+01:00" href="/2022/schedule/day/saturday/#1735">17:35</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T17:05:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1705">17:05</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T17:35:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1735">17:35</a></td>
         </tr>
 
         <tr>
           <td class="c1">&nbsp;</td>
-          <td><a href="/2022/schedule/event/mariadb_confidential/">The future of databases is confidential</a></td>
-          <td><a href="/2022/schedule/speaker/felix_schuster/" class="quiet">Felix Schuster</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/event/mariadb_confidential/">The future of databases is confidential</a></td>
+          <td><a href="https://fosdem.org/2022/schedule/speaker/felix_schuster/" class="quiet">Felix Schuster</a></td>
 
-          <td><a class="quiet value-title" title="2022-02-05T17:35:00+01:00" href="/2022/schedule/day/saturday/#1735">17:35</a></td>
-          <td><a class="quiet value-title" title="2022-02-05T18:00:00+01:00" href="/2022/schedule/day/saturday/#1800">18:00</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T17:35:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1735">17:35</a></td>
+          <td><a class="quiet value-title" title="2022-02-05T18:00:00+01:00" href="https://fosdem.org/2022/schedule/day/saturday/#1800">18:00</a></td>
         </tr>
 
 
